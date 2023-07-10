@@ -8,8 +8,8 @@ spring:
           jwk-set-uri: http://192.168.1.101:8080/realms/RentACarMicroservice/protocol/openid-connect/certs
   datasource:
     username: root
-    password: 12345
-    url: jdbc:mysql://192.168.1.101:3307/paymentdb-t1?createDatabaseIfNotExist=true
+    password: test1234
+    url: jdbc:mysql://localhost:3307/paymentdb-t1?createDatabaseIfNotExist=true
   jpa:
     hibernate:
       ddl-auto: update
